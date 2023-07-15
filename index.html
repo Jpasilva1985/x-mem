@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Lato:wght@100;300&family=Oxanium:wght@300;400;700&family=Poppins:wght@300;500;800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="src/css/responsive.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="logo">
+            <img src="src/imagens/logo.svg" alt="">
+        </div>
+    </header>
+    <main class="main">
+        <section class="personagens">
+            <h1 class="titulo">Selecione um Personagem</h1>
+            <ul class="lista-de-personagens">
+                <li class="personagem  selecionado" id="ciclope" data-name="ciclope"
+                    data-description="Ele tem o poder de disparar rajadas ópticas por um acidente que aconteceu com ele quando criança , mas não consegue contróla-los.">
+                    <img src="src/imagens/card-ciclope.jpg" alt="">
+                </li>
+
+                <li class="personagem" id="jean-grey" data-name="jean grey"
+                    data-description="Além de poderosa telepata, telecinética e psiônica, quando Jean torna-se avatar da Força Fênix, ganha controle sobre o fogo cósmico, manipulação temporal e a habilidade de ressureição.">
+                    <img src="src/imagens/card-jean-grey.jpg" alt="">
+                </li>
+
+                <li class="personagem" id="lince-negra" data-name="lince negra"
+                    data-description="A Lince Negra passa pelos objetos na mesma velocidade em que ela está se movendo antes de entrar neles. Como ela é incapaz de respirar enquanto está dentro de um objeto, ela só pode passar continuamente por objetos sólidos (como quando viaja no subsolo), desde que consiga prender a respiração">
+                    <img src="src/imagens/card-lince-negra.jpg" alt="">
+                </li>
+                <li class="personagem" id="tempestade" data-name="tempestade"
+                    data-description="Tempestade (Storm, no original) é uma personagem fictícia de história em quadrinhos do Universo Marvel Comics, alter-ego de Ororo Munroe, e membro dos X-Men">
+                    <img src="src/imagens/card-tempestade.jpg" alt="">
+                </li>
+                <li class="personagem" id="vampira" data-name="card-vampira"
+                    data-description="Seu poder mutante é a habilidade de absorver a vitalidade, memórias, habilidades e poderes de outros seres vivos através do contato com a pele">
+                    <img src="src/imagens/card-vampira.jpg" alt="">
+                </li>
+                <li class="personagem" id="wolverine" data-name="wolverine"
+                    data-description="Ele é um mutante que possui sentidos afiados, capacidades físicas aprimoradas, habilidade regenerativa poderosa conhecida como fator de cura e três garras retratáveis ​​de osso em cada mão">
+                    <img src="src/imagens/card-wolverine.jpg" alt="">
+                </li>
+                <li class="personagem" id="noturno" data-name="noturno"
+                    data-description="Noturno possui apenas três dedos (incluindo um polegar opositor) em cada mão. Ele também tem apenas 2 dedos em cada pé, cada um maior que o de um ser humano comum. Ele tem uma cauda com cerca de 1 metro de comprimento, a qual pode suportar seu próprio peso.">
+                    <img src="src/imagens/card-noturno.jpg" alt="">
+                </li>
+                <li class="personagem" id="magneto" data-name="magneto"
+                    data-description="Magneto (Erik Lehnsherr) é um mutante com a habilidade de manipular campos magnéticos à sua vontade e controlar objetos metálicos. Magneto foi um membro fundador dos X-Men, mas deixou o grupo para formar a Irmandade dos Mutantes.">
+                    <img src="src/imagens/card-magneto.jpg" alt="">
+                </li>
+            </ul>
+        </section>
+
+        <section class="personagem-selecionado">
+            <img class="personagem-grande" src="src/imagens/card-ciclope.png" alt="">
+
+            <div class="informacoes-personagem">
+                <h2 class="nome-personagem" id="nome-personagem">Ciclope</h2>
+                <p class="descricao-personagem" id="descricao-personagem">Ele tem o poder de disparar rajadas ópticas
+                    por um acidente que aconteceu com ele quando criança , mas não consegue contróla-los.</p>
+            </div>
+        </section>
+    </main>
+
+    <script src="./src/js/script.js"></script>
+</body>
+
+</html>

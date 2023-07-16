@@ -37,7 +37,7 @@ body::before{
     gap: 30px;
     min-height: calc(100vh - 157px);
     justify-content: center;
-    padding-top: 0px;
+    /*padding-top: 0px;*/
 }
 
 .main .lista-de-personagens {

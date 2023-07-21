@@ -21,9 +21,9 @@ body::before{
     background-position: center;
     width: 100%;
     height: 100%;
-    /*position: absolute;
+    position: absolute;
     z-index: -1;
-    opacity: 0.2;*/
+    opacity: 0.2;
 }
 .header {
     display: flex;
@@ -37,7 +37,7 @@ body::before{
     gap: 30px;
     min-height: calc(100vh - 157px);
     justify-content: center;
-    /*padding-top: 0px;*/
+    padding-top: 150px;
 }
 
 .main .lista-de-personagens {
